@@ -1,0 +1,20 @@
+/*Estilo proyectos*/
+.pryescuela, .prypuesto{
+    @extend .boxblanco;
+    .proyectos{
+        width: 100%;
+        border-radius: 5px;
+    }
+}
+.donacion{
+    width: 90%;
+    background-color: $blanco;
+    border-radius: 5px;
+    padding: 2%; 
+    p{
+        padding: 0px 20px 20px 20px; 
+    }
+    .boton{
+        padding: 5px;
+    }
+}

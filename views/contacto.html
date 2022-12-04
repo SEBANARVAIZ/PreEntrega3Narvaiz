@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulario de contacto de Puentes del Alma para consultas, donaciones">
+    <meta name="keywords" content="puentes,alma,ong, contacto, formulario, donaciones">
+     <!-- CSS only -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/nuevoestilo.css">
+    <link rel="icon" href="../assets/img/icon.png">
+    <title>Puentes del Alma - Contacto</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg"  style="background-color: #fffdf5ad;">
+            <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
+              <a class="navbar-brand  animate__animated animate__bounceIn" href="../index.html"><img class="logo1" src="../Assets/img/LogoPDA.png" alt="Logo Puentes"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Nosotros
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../views/quienessomos.html">Quiénes somos?</a></li>
+                            <li><a class="dropdown-item" href="../views/proyectos.html">Proyectos</a></li>
+                            </ul>
+                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../views/actividades.html">Actividades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../views/contacto.html">Contacto</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div class="formulario">
+                <h2>Formulario de Contacto</h2>
+            <form>
+                <fieldset>
+                    <div>
+                        <label for="Nombre">Escribe tu nombre</label>
+                        <input type="text" name="Nombre" placeholder="Juan">
+                    </div>
+                    <div>
+                        <label for="Apellido">Escribe tu apellido</label>
+                        <input type="text" name="Apellido" placeholder="Gómez">
+                    </div>
+                    <div>
+                        <label for="mail">E-mail</label>
+                        <input type="email" name="mail" required>
+                    </div>
+                    <div>
+                        <label for="nac">Elige tu nacionalidad</label>
+                        <select name="nac" id="">
+                            <option value="arg">Argentino</option>
+                            <option value="bol">Boliviano</option>
+                            <option value="uru">Uruguayo</option>
+                            <option value="per">Peruano</option>
+                            <option value="otr">Otros</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="sexo">Género</label>
+                        <input type="radio" name="sexo" value="Muj">Mujer
+                        <input type="radio" name="sexo" value="Hom">Hombre
+                        <input type="radio" name="sexo" value="Nob">No Binario
+                    </div>
+                    <div>
+                        <label for="comentarios">Escribe tu Consulta</label>
+                        <textarea name="comentarios" id="" cols="30" rows="5"></textarea>
+                    </div>
+                    <div>
+                        <label for="sexo">Deseo suscribirme al newsletter</label>
+                        <input type="radio" name="sexo" value="">
+                    </div>
+                    <div>
+                        <label for="terminos">Acepto términos y condiciones</label>
+                        <input type="checkbox" name="terminos">
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <button type="button submit" class="btn btn-danger enviar">Enviar datos</button>
+                        <button type="button reset" class="btn btn-danger borrar">Borrar datos</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-4 footerlogos">
+                    <a href="https://es-la.facebook.com/puentesdelalma/" target="_blank"><img src="../assets/img/logoFacebook.jpg" alt="logoFacebook" class="logos"></a>
+                    <a href="https://www.instagram.com/puentesdelalma/" target="_blank"><img src="../assets/img/logoInstagram.png" alt="logoInstagram" class="logos"></a>
+                </div>
+                <div class="col-4 d-flex justify-content-center">
+                    <p class="text-white">
+                        Todos los derechos reservados©
+                    </p>
+                </div>
+                <div class="col-4 d-flex justify-content-end">
+                    <a href="#top">
+                        <img src="../assets/img/isotipoPuentes.png" alt="isotipoPuentes" class="isoP">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

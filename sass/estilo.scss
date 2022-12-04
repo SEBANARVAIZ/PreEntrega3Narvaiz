@@ -1,0 +1,40 @@
+// Variables //  
+$azul:#1046A8;
+$rojo:#DE3333;
+$blanco:#ffffffb0;
+$blancofuerte: #ffffffd0;
+
+/*Estilo general*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Quicksand-Medium";
+    background-image: url(../assets/img/background.png);
+    background-attachment: fixed;
+}
+@font-face {
+    font-family: "Quicksand-Medium";
+    src: url(../assets/font/Quicksand-Medium.ttf);
+}
+@font-face {
+    font-family:"Pacifico-Regular";
+    src: url(../assets/font/Pacifico-Regular.ttf);
+}
+h1,h2,h3,h4,h5{
+    font-family: "Pacifico-Regular";
+    src: url(../assets/font/Pacifico-Regular.ttf);
+}
+
+// Hojas SCSS //
+@import "header";
+@import "footer";
+@import "index";
+@import "quienessomos";
+@import "proyectos";
+@import "actividades";
+@import "contacto";
+
