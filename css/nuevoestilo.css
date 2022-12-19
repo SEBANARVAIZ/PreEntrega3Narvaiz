@@ -26,8 +26,8 @@ h1, h2, h3, h4, h5 {
 .logo1 {
   vertical-align: middle;
   width: 230px;
-  padding: 10px;
-  margin-right: 2rem; }
+  padding: 10px; 
+}
 
 /*Estilo footer*/
 footer {
