@@ -72,9 +72,9 @@ h3 {
   text-align: center; }
 
 h1 {
-  color: #1046A8;
+  color: #DE3333;
   text-align: center;
-  padding: 2rem; }
+  padding: 0.7rem; }
 
 h2 {
   color: #DE3333;
@@ -88,7 +88,7 @@ p {
 .quienessomos {
   width: 100%; }
 
-.boxblanco, .pryescuela, .prypuesto {
+.boxblanco, .pryescuela, .prypuesto, .proyectar {
   background-color: #ffffffb0;
   width: 90%;
   padding: 3%;
@@ -115,7 +115,7 @@ p {
         max-height: auto; }
 
 /*Estilo proyectos*/
-.pryescuela .proyectos, .prypuesto .proyectos {
+.pryescuela .proyectos, .prypuesto .proyectos, .proyectar .proyectos {
   width: 100%;
   border-radius: 5px; }
 
