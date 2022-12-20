@@ -25,9 +25,9 @@ h1, h2, h3, h4, h5 {
 /*Estilo header*/
 .logo1 {
   vertical-align: middle;
-  width: 230px;
-  padding: 10px; 
-}
+  width: 250px;
+  padding: 10px;
+  margin-right: 8rem; }
 
 /*Estilo footer*/
 footer {
@@ -198,10 +198,9 @@ p {
   background-color: #ffffffb0;
   border-radius: 10px;
   margin: 0% 5% 0% 5%; }
-  .colaboran .colaboradores {
-    padding: 0% 0% 5% 0%; }
-    .colaboran .colaboradores img {
-      width: 120px; }
+  .colaboran .colaboradores img {
+    width: 90%;
+    margin: 0% 5% 20% 5%; }
 
 /*Estilo contacto*/
 .formulario {
